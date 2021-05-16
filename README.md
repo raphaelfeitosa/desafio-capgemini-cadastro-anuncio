@@ -12,9 +12,9 @@
 - [Executando todos os testes](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#executando-todos-os-testes)
 - [Executando o projeto com Docker](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#whaleexecutando-o-projeto-com-docker)
 - [Executando o projeto localmente](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#computerexecutando-o-projeto-localmente)
-- [Tecnologias](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/#mag_righttecnologias)
+- [Tecnologias](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/#toolboxtecnologias)
 - [Endpoints disponíveis](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/#mag_rightendpoints-disponíveis)
-- [Autor](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/#mag_rightautor)
+- [Autor](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/#rocketautor)
 
 ## :hammer: Missão deste projeto
 
@@ -48,19 +48,37 @@ no Windows
 mvnw.cmd test
 ```
 
-## :whale:Executando o projeto com Docker
+## :whale: Executando o projeto com Docker
 
 No terminal, navegue até a pasta raiz do projeto e execute
 
 ```shell
-docker-compose up
+docker-compose up --build
 ```
 
-## :computer:Executando o projeto localmente
+## :computer: Executando o projeto localmente
 
-Para que não seja necessário instalar nada em sua máquina, a aplicação esta configurada para salvar os dados no banco de dados em mémoria.
+Para que não seja necessário instalar nada em sua máquina, vamos alterar o banco de dados da nossa aplicação para um banco em mémoria.
 
-No terminal, navegue até a pasta raiz do projeto e execute
+Agora, reescreva o arquivo [application.yml](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/blob/main/src/main/resources/application.yml) da seguinte forma
+
+```yml
+spring:
+  datasource:
+    url: jdbc:h2:mem:anuncio_db
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+```
+
+Agora no terminal, navegue até a pasta raiz do projeto e execute
 
 ```shell
 ./mvnw clean install 
@@ -84,15 +102,17 @@ no Windows
 mvnw.cmd spring-boot:run
 ```
 
-## :🛠:Tecnologias
+## :toolbox: Tecnologias
 
 As seguintes tecnologias foram usadas na construção do projeto:
 
 
 -   **[Spring Boot](https://spring.io/projects/spring-boot)**
 -   **[DB H2](https://www.h2database.com)**
+-   **[DB MySQL](https://www.mysql.com/)**
+-   **[Docker](https://www.docker.com/)**
 
-## :mag_right:Endpoints disponíveis
+## :mag_right: Endpoints disponíveis
 
 Antecedido por http://\<seu-host\>:8080 temos os endpoints
 
@@ -117,7 +137,7 @@ Antecedido por http://\<seu-host\>:8080 temos os endpoints
 </p>
 
 
-## 🦸 Autor
+## :rocket: Autor
 
 Raphael Feitosa
 
