@@ -8,13 +8,15 @@
 
 
 ## :speech_balloon: O que há neste documento
-- [Missão deste projeto](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#hammermissão-deste-projeto)
-- [Executando todos os testes](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#executando-todos-os-testes)
-- [Executando o projeto com Docker](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#whaleexecutando-o-projeto-com-docker)
-- [Executando o projeto localmente](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#computerexecutando-o-projeto-localmente)
-- [Tecnologias](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/#toolboxtecnologias)
-- [Endpoints disponíveis](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/#mag_rightendpoints-disponíveis)
-- [Autor](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/#rocketautor)
+<!--ts-->
+   * [Missão deste projeto](#-missão-deste-projeto)
+   * [Executando todos os testes](#-executando-todos-os-testes)
+   * [Executando o projeto com docker](#-executando-o-projeto-com-docker)
+   * [Executando o projeto localmente](#-executando-o-projeto-localmente)
+   * [Tecnologias](#-tecnologias)
+   * [Endpoints disponíveis](#-endpoints-disponíveis)
+   * [Autor](#-autor)
+<!--te-->
 
 ## :hammer: Missão deste projeto
 
@@ -48,7 +50,7 @@ no Windows
 mvnw.cmd test
 ```
 
-## :whale: Executando o projeto com Docker
+## :whale: Executando o projeto com docker
 
 No terminal, navegue até a pasta raiz do projeto e execute
 
