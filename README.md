@@ -11,12 +11,12 @@
 <!--ts-->
 
    * [Missão deste projeto](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#hammermissão-deste-projeto)
-   * [Executando todos os testes](#-executando-todos-os-testes)
-   * [Executando o projeto com docker](#-executando-o-projeto-com-docker)
-   * [Executando o projeto localmente](#-executando-o-projeto-localmente)
-   * [Tecnologias](#-tecnologias)
-   * [Endpoints disponíveis](#-endpoints-disponíveis)
-   * [Autor](#-autor)
+   * [Executando todos os testes](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#executando-todos-os-testes)
+   * [Executando o projeto com docker](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#whaleexecutando-o-projeto-com-docker)
+   * [Executando o projeto localmente](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#computerexecutando-o-projeto-localmente)
+   * [Tecnologias](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#toolboxtecnologias)
+   * [Endpoints disponíveis](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#mag_rightendpoints-disponíveis)
+   * [Autor](https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio#rocketautor)
 <!--te-->
 
 ## :hammer:Missão deste projeto
@@ -51,7 +51,7 @@ no Windows
 mvnw.cmd test
 ```
 
-## :whale: Executando o projeto com docker
+## :whale:Executando o projeto com docker
 
 No terminal, navegue até a pasta raiz do projeto e execute
 
@@ -59,7 +59,7 @@ No terminal, navegue até a pasta raiz do projeto e execute
 docker-compose up --build
 ```
 
-## :computer: Executando o projeto localmente
+## :computer:Executando o projeto localmente
 
 Para que não seja necessário instalar nada em sua máquina, vamos alterar o banco de dados da nossa aplicação para um banco em mémoria.
 
@@ -105,7 +105,7 @@ no Windows
 mvnw.cmd spring-boot:run
 ```
 
-## :toolbox: Tecnologias
+## :toolbox:Tecnologias
 
 As seguintes tecnologias foram usadas na construção do projeto:
 
@@ -115,7 +115,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 -   **[DB MySQL](https://www.mysql.com/)**
 -   **[Docker](https://www.docker.com/)**
 
-## :mag_right: Endpoints disponíveis
+## :mag_right:Endpoints disponíveis
 
 Antecedido por http://\<seu-host\>:8080 temos os endpoints
 
@@ -140,7 +140,7 @@ Antecedido por http://\<seu-host\>:8080 temos os endpoints
 </p>
 
 
-## :rocket: Autor
+## :rocket:Autor
 
 Raphael Feitosa
 
