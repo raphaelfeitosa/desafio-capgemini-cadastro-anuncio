@@ -99,21 +99,21 @@ Antecedido por http://\<seu-host\>:8080 temos os endpoints
 - /anuncios \(POST\) - HTTP Response 201 Created 
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Vendas" title="#Home" src="https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/?raw=true" />
+  <img alt="Vendas" title="#Home" src="https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/tree/main/assets/cadastro-anuncio.png?raw=true" />
 </p>
 
 - /relatorios/anuncios/{id} \(GET\) - HTTP Response 200 Ok
 
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Vendas" title="#Home" src="https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/?raw=true" />
+  <img alt="Vendas" title="#Home" src="https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/tree/main/assets/relatorio-cadastro-anuncio.png?raw=true" />
 </p>
 
 - /relatorios/?cliente={Cliente}={DataInicio}&fim={DataTermino} \(GET\) - HTTP Response 200 Ok
 
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Vendas" title="#Home" src="https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/?raw=true" />
+  <img alt="Vendas" title="#Home" src="https://github.com/raphaelfeitosa/desafio-capgemini-cadastro-anuncio/tree/main/assets/relatorio-cliente-intervalo-tempo.png?raw=true" />
 </p>
 
 
